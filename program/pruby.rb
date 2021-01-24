@@ -1,15 +1,16 @@
+puts 'Hello World' # -> Hello World
+
 =begin
     BASICS
 =end
 
-puts 'Hello World'
 integer = 3
 float = 1.7
 string = 'Random text'
-puts 'Tell me your name:'
+puts 'Tell me your name' # -> Tell me your name
 STDOUT.flush
 your_name = gets.chomp
-puts 'Welcome ' + your_name
+puts 'Welcome ' + your_name # -> Welcome {your name}
 
 =begin
     VARIABLES AND CONSTANT
@@ -38,7 +39,6 @@ Pi = 3.1416
 def hello
     'Hello'
 end
-# Using the method
 puts hello # -> Hello
 
 # Method with 1 argument
@@ -67,7 +67,7 @@ alias newmtd oldmtd
 def oldmtd
     "Old improved method"
 end
-puts newmtd
-puts oldmtd
+puts newmtd # -> Old method
+puts oldmtd # -> Old improved method
 
 # TO BE CONTINUED...
