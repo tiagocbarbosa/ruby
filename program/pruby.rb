@@ -4,9 +4,16 @@ puts 'Hello World' # -> Hello World
     BASICS
 =end
 
+# Integer
 integer = 3
+
+# Float
 float = 1.7
+
+# String
 string = 'Random text'
+
+# Get input
 puts 'Tell me your name' # -> Tell me your name
 STDOUT.flush
 your_name = gets.chomp
