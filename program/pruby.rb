@@ -60,6 +60,12 @@ def hello2 (name, surname)
 end
 puts hello2('Tiago', 'Barbosa') # -> Hello Tiago Barbosa
 
+# Method with N arguments
+def hello_n (*middle_name)
+    middle_name.inspect
+end
+puts hello_n('Castro', 'da Silva', 'Sauro') # -> ["Catro", "da Silva", "Sauro"]
+
 # Method with default value
 def print_language best_language = 'C'
     "#{best_language}"
