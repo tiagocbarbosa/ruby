@@ -36,7 +36,7 @@ language = 'Ruby'
 $counter = 0
 
 # Constant
-Pi = 3.1416
+PI = 3.1416
 
 =begin
     METHODS
@@ -76,5 +76,19 @@ def oldmtd
 end
 puts newmtd # -> Old method
 puts oldmtd # -> Old improved method
+
+# Method without a bang (!)
+a = "HELLO"
+def downer(string)
+    string.downcase
+end
+puts downer(a) # -> hello
+puts a # -> HELLO
+# Method with a bang (!)
+def downer(string)
+    string.downcase!
+end
+puts downer(a) # -> hello
+puts a # -> hello
 
 # TO BE CONTINUED...
