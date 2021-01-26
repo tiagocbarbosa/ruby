@@ -97,4 +97,23 @@ end
 puts downer(a) # -> hello
 puts a # -> hello
 
+=begin
+    MORE ON STRINGS
+=end
+
+# Comparing two strings
+s1 = 'Jose'
+s2 = 'Jose'
+s3 = s1
+puts s1 == s2 # -> true
+puts s1.eql?(s2) # -> true
+puts s1.equal?(s3) # -> true
+puts s2.equal?(s3) # -> false
+
+# Creating array of words
+names1 = ['caio', 'felipe', 'gustavo', 'amanda', 'patricia']
+puts names1[1] # -> felipe
+names2 = %w{ caio felipe gustavo amanda patricia}
+puts names2[1] # -> felipe
+
 # TO BE CONTINUED...
