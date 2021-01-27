@@ -140,4 +140,9 @@ end
 # output:
 # False conditional
 
+# Ternary operator
+cities = %w{ Salvador Recife Manaus Santos}
+answer = cities.include?('Salvador') ? 'Yes' : 'No'
+puts answer # -> Yes
+
 # TO BE CONTINUED...
