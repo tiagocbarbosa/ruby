@@ -113,7 +113,21 @@ puts s2.equal?(s3) # -> false
 # Creating array of words
 names1 = ['caio', 'felipe', 'gustavo', 'amanda', 'patricia']
 puts names1[1] # -> felipe
-names2 = %w{ caio felipe gustavo amanda patricia}
+names2 = %w{ caio felipe gustavo amanda patricia }
 puts names2[1] # -> felipe
+
+=begin
+    SIMPLE CONSTRUCTS
+=end
+
+# elsif
+name = 'Marcos'
+if name == 'Sabrina'
+    puts 'Hello Sabrina'
+elsif name == 'Marcos'
+    puts 'Hello Marcos'
+end
+# output:
+# Hello Marcos
 
 # TO BE CONTINUED...
