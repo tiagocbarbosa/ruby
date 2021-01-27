@@ -130,4 +130,14 @@ end
 # output:
 # Hello Marcos
 
+# unless
+boolean_value = false
+unless boolean_value == true
+    puts 'False conditional'
+else
+    puts 'True conditional'
+end
+# output:
+# False conditional
+
 # TO BE CONTINUED...
