@@ -145,4 +145,8 @@ cities = %w{ Salvador Recife Manaus Santos}
 answer = cities.include?('Salvador') ? 'Yes' : 'No'
 puts answer # -> Yes
 
+# Statement modifiers
+students_count = 41
+puts "There are too many students" if students_count > 40 # -> There are too many students
+
 # TO BE CONTINUED...
